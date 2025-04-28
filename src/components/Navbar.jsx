@@ -10,13 +10,13 @@ const Navbar = ({ onScroll }) => {
     <nav>
       <div className='logo_container'><img src="./tblogo.png" alt="" /></div>
       <ul className={`${displayNav ? "displayNav" : ''}`}>
-        <li>
-          <Link to="/">Home</Link>
+         <li>
+          <Link to="/"><span>Home</span></Link>
         </li>
         <li onClick={() => onScroll('about')}><span>About</span></li>
         <li onClick={() => onScroll('contact')}><span>Contact</span></li>
         <li>
-          <Link to='/login'>Login</Link>
+          <Link to='/login'><span>Login</span></Link>
         </li>
 
       </ul>
