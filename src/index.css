@@ -35,7 +35,6 @@ nav ul{
   display: flex;
   gap: 20px;
   font-weight: 500;
-  padding: 16px 0;
 }
 nav ul li{
   cursor: pointer;
@@ -68,6 +67,9 @@ nav .logo_container img {
 @media only screen and (max-width: 550px) {
   .navbar_menu{
     display: block;
+  }
+  nav ul li span{
+    color: #1e1e2f;
   }
   nav ul{
     position: absolute;
