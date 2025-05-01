@@ -16,7 +16,7 @@ const LoginPage = () => {
 
         try {
             const user = await axios.post(
-                '/api/user/login',
+                `${import.meta.env.VITE_BACKEND_URL}/api/user/login`,
                 {
                     email: email.toLowerCase().trim(),
                     password
