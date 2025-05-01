@@ -94,7 +94,7 @@ const SignupPage = () => {
           required />
 
         <button type='submit'>Signup</button>
-        <p>No have an account? <Link to="/signup">Signup</Link></p>
+        <p>No have an account? <Link to="/login">Login</Link></p>
         <p style={{ color: success ? "green" : "red" }}>{message}</p>
         
         
