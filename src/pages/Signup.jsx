@@ -24,7 +24,9 @@ const SignupPage = () => {
 
     try {
       const user = await axios.post(
-        '/api/user',
+
+        'https://aq-school-6hn7.vercel.app/api/user',
+        
         {
           name,
           email: email.toLowerCase(),
