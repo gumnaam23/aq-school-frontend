@@ -13,7 +13,7 @@ const Contect = () => {
     e.preventDefault();
     try {
      const sendingMessage = await axios.post(
-        '/api/contect',
+        `${import.meta.env.VITE_BACKEND_URL}/api/contect`,
         {
           name,
           message
