@@ -16,7 +16,7 @@ const LoginPage = () => {
 
         try {
             const user = await axios.post(
-                `${import.meta.env.VITE_BACKEND_URL}/api/user/login`,
+                'https://aq-school-6hn7.vercel.app/api/user/login'
                 {
                     email: email.toLowerCase().trim(),
                     password
