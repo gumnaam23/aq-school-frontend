@@ -13,7 +13,7 @@ const Contect = () => {
     e.preventDefault();
     try {
      const sendingMessage = await axios.post(
-        `${import.meta.env.VITE_BACKEND_URL}/api/contect`,
+        'https://aq-school-6hn7.vercel.app/api/contect',
         {
           name,
           message
